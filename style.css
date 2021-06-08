@@ -73,11 +73,11 @@ button:active {
   box-shadow: 0 0.1rem rgba(255, 255, 255, 0.65);
 }
 
-.linkedin-button:hover {
-  color: #0e76a8;
+.twitter-button:hover {
+  color: #1da1f2;
 }
 
-.fa-linkedin {
+.fa-twitter {
   font-size: 1.5rem;
 }
 
