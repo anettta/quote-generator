@@ -52,6 +52,7 @@ async function getQuotes() {
     const response = await fetch(apiUrl);
     apiQuotes = await response.json();
     newQuote();
+    complete();
   } catch (error) {
     alert("check back later");
     // Catch error here
